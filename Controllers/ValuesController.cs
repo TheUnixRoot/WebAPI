@@ -20,6 +20,8 @@ namespace WebAPI.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
+            if(id == 5)
+            return "K ase";
             return "value";
         }
 
